@@ -31,7 +31,7 @@ See below for more information that will soon be incorporated into the Kubo docu
 Use the BOSH CLI if you want to destroy the cluster:
 
 ```bash
-bosh-cli -e <KUBO_ENV> login
+bosh-cli -e <KUBO_ENV_NAME> login
 bosh-cli -e <KUBO_ENV_NAME> -d ${cluster_name} delete-deployment
 ```
 
